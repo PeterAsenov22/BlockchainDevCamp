@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateHashes", "CalculateHashes\CalculateHashes.csproj", "{06C65883-C51A-44A7-AEB5-85363AC8F4B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateHMAC", "CalculateHMAC\CalculateHMAC.csproj", "{D8AB906D-842C-4740-88A1-E300BBC69BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeriveKeyByPassUsingScrypt", "DeriveKeyByPassUsingScrypt\DeriveKeyByPassUsingScrypt.csproj", "{B570B053-4537-4507-84F3-9819C15EB270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricEncryptionDecryption", "SymmetricEncryptionDecryption\SymmetricEncryptionDecryption.csproj", "{95A35691-0693-4726-BA6A-8AEE567CDB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignAndVerifyTransaction", "SignAndVerifyTransaction\SignAndVerifyTransaction.csproj", "{49C71A4A-6C3E-4AC5-AD14-CF040428AC53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C65883-C51A-44A7-AEB5-85363AC8F4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C65883-C51A-44A7-AEB5-85363AC8F4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C65883-C51A-44A7-AEB5-85363AC8F4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C65883-C51A-44A7-AEB5-85363AC8F4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AB906D-842C-4740-88A1-E300BBC69BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AB906D-842C-4740-88A1-E300BBC69BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AB906D-842C-4740-88A1-E300BBC69BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AB906D-842C-4740-88A1-E300BBC69BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B570B053-4537-4507-84F3-9819C15EB270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B570B053-4537-4507-84F3-9819C15EB270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B570B053-4537-4507-84F3-9819C15EB270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B570B053-4537-4507-84F3-9819C15EB270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A35691-0693-4726-BA6A-8AEE567CDB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A35691-0693-4726-BA6A-8AEE567CDB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A35691-0693-4726-BA6A-8AEE567CDB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A35691-0693-4726-BA6A-8AEE567CDB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C71A4A-6C3E-4AC5-AD14-CF040428AC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C71A4A-6C3E-4AC5-AD14-CF040428AC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C71A4A-6C3E-4AC5-AD14-CF040428AC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C71A4A-6C3E-4AC5-AD14-CF040428AC53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42369B5B-D455-4E01-BA22-37F7142A66AC}
+	EndGlobalSection
+EndGlobal
