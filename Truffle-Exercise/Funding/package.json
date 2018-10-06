@@ -1,0 +1,20 @@
+{
+  "name": "Funding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "test:run:server": "testrpc-sc --port 8555 -l 0xfffffffffff -g 0x01",
+    "test:coverage": "solidity-coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "solidity-coverage": "^0.5.11"
+  }
+}
